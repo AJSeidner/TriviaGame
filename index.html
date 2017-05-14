@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href ="assets/css/style.css"></link>
+	<meta charset="UTF-8">
+	<title>TriviaGame</title>
+</head>
+<body>
+	<h1>It's Alway Sunny in Philadelphia Quiz!</h1>
+	<!--create div for game screen that changes once timer is out -->
+	<div class = "startScreen">
+		<h2>Rules</h2>
+			<p>rules and stuff</p>
+		<br>
+    <button type="button" id= "start">Commence</button>
+  </div>
+  <div class = "gameScreen">
+		<div id = "timer">
+			<p>Time Remaining:<span id = "display">60</span> seconds</p>
+		</div>
+		<br>
+		<div class = "questions">
+			<p id = "question1">Who is Sweet Dee's baby-dady?</p>
+      <div class="group">
+				<label>
+					<input type="radio" name="answers[1]" value="inc">
+        				Frank
+      			</label>
+      
+      			<label>
+        			<input type="radio" name="answers[1]" value="inc">
+        				Mac
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[1]" value="ans">
+        				Carmen
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[1]" value="inc">
+        				Charlie
+      			</label>
+      </div>
+  
+			<br><br><br>
+
+
+				<p id = "question2">Who used the catch phrase "jabroni" ?</p>
+				<label>
+					<input type="radio" name="answers[2]" value="inc">
+        				Frank
+      			</label>
+      
+      			<label>
+        			<input type="radio" name="answers[2]" value="ans">
+        				Mac
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[2]" value="inc">
+        				Dee
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[2]" value="inc">
+        				Charlie
+      			</label>
+
+
+			<br><br><br>
+
+
+				<p id = "question3">Who does Dennis marry?</p>
+				<label>
+					<input type="radio" name="answers[3]" value="inc">
+        				Margaret McPoyle
+      			</label>
+      
+      			<label>
+        			<input type="radio" name="answers[3]" value="inc">
+        				Himself
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[3]" value="inc">
+        				The Waitress
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[3]" value="ans">
+        				Maureen Ponderosa
+      			</label>
+
+
+			<br><br><br>
+
+
+				<p id = "question4">Who is "Champion of the Sun"?</p>
+				<label>
+					<input type="radio" name="answers[4]" value="ans">
+        				Day-Man
+      			</label>
+      
+      			<label>
+        			<input type="radio" name="answers[4]" value="inc">
+        				Frank
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[4]" value="inc">
+        				Artemis
+        				
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[4]" value="inc">
+        				Mac
+      			</label>
+
+
+			<br><br><br>
+
+
+				<p id = "question5">Which McPoyle had a promising shot to play for the Philadelphia Eagles?</p>
+				<label>
+					<input type="radio" name="answers[5]" value="inc">
+        				Ryan McPoyle
+      			</label>
+      
+      			<label>
+        			<input type="radio" name="answers[5]" value="inc">
+        				Margaret McPoyle
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[5]" value="ans">
+        				Doyle McPoyle
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[5]" value="inc">
+        				Liam McPoyle
+      			</label>
+
+
+			<br><br><br>
+
+				<p id = "question6">Complete the following: "If you want the boy's soul, you have to pay "___""?</p>
+				<label>
+					<input type="radio" name="answers[6]" value="inc">
+        				The Nightman!
+      			</label>
+      
+      			<label>
+        			<input type="radio" name="answers[6]" value="inc">
+        				Cash
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[6]" value="inc">
+        				homage to Lethal Weapon 6
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[6]" value="ans">
+        				the Troll Toll
+      			</label>
+
+
+			<br><br><br>
+
+
+				<p id = "question7">Who wins the wrestling match?</p>
+				<label>
+					<input type="radio" name="answers[7]" value="ans">
+        				The Trashman
+      			</label>
+      
+      			<label>
+        			<input type="radio" name="answers[7]" value="inc">
+        				Da'Maniac
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[7]" value="inc">
+        				The Talibum
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[7]" value="inc">
+        				The Birds of War
+      			</label>
+
+
+			<br><br><br>
+
+
+				<p id = "question8">Who pooped the bed?</p>
+				<label>
+					<input type="radio" name="answers[8]" value="inc">
+        				Dennis
+      			</label>
+      
+      			<label>
+        			<input type="radio" name="answers[8]" value="inc">
+        				Mac
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[8]" value="ans">
+        				Frank
+      			</label>
+
+      			<label>
+        			<input type="radio" name="answers[8]" value="inc">
+        				Charlie
+      			</label>
+			<br><br>
+			
+		</div>
+  </div>
+
+  <div class="endScreen">
+    <br>
+    <h2>Results</h2>
+    <br>
+    <h3>Correct:<span id="correct"></span></h3>
+    <br>
+    <h3>Incorrect:<span id="incorrect"></span></h3>
+    <br>
+    <h3>Unanswered:<span id="unanswered"></span></h3>
+  </div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+	<script type="text/javascript" src = "assets/javascript/app.js"></script>
+
+</body>
+</html>
